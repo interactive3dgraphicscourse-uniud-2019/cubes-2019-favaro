@@ -15,10 +15,11 @@
 * Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
 * Riprogettazione su carta della nave con dimensioni minori.
 * Aggiornamento del journal.
+* Prime prove di disegno del nuovo progetto in three.js.
 
 # 1 maggio 2019
 
-* Prove di disegno del nuovo progetto in three.js.
+* Revisione progetto e prove di disegno del nuovo progetto in three.js.
 * Risultati di prova accettabili.
 * Aggiornamento del journal.
 * Decisione di suddividere il Titanic in 5 parti per semplificare il codice e la costruzione: scafo, ponte, fumaioli, prua e poppa.
@@ -36,4 +37,4 @@
 * Creazione della repository del progetto.
 * Risoluzione problemi di poppa e prua grazie all'utilizzo di cubi wireframe.
 * Fine della scrittura del codice delle parti del Titanic.
-* Aggiornamento journal.
+* Aggiornamento del journal.
