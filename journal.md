@@ -28,7 +28,7 @@
 
 # 2 maggio 2019
 
-* Scrittura del codice dello scafo e del ponte.
+* Scrittura del codice dello scafo, del ponte e dei fumaioli.
 * Alcune difficoltà con la scrittura del codice di poppa e prua: il risultato sembra presentare errori di costruzione.
 * Aggiornamento del journal.
 
