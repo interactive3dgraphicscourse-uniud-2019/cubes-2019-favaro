@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>Maurizio Favaro-1st Project 2019</title>
+		<style>
+
+		body {
+			font-family: Monospace;
+			background-color: #f0f0f0;
+			margin: 0px;
+			overflow: hidden;
+		}
+
+		canvas {
+			width: 100%;
+			height: 100%;
+		}
+
+	</style>
+		<script src="lib/three.min.js"></script>
+		<script src="lib/stats.min.js"></script>
+		<script src="lib/Coordinates.js"></script>
+		<script src="lib/OrbitControls.js"></script>
+		<script src="parts/hull.js"></script>
+		<script src="parts/deck.js"></script>
+		<script src="parts/funnel.js"></script>
+		<script src="parts/bow.js"></script>
+		<script src="parts/stern.js"></script>
+	</head>
+	<body>
+
+		<script>
+
+		var scene, camera, renderer, controls, stats;
+
+		function Start() {
+			scene = new THREE.Scene();
+			camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+			renderer = new THREE.WebGLRenderer( {antialias: true} );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			renderer.setClearColor( 0xf0f0f0 );
+			document.body.appendChild( renderer.domElement );
+
+			camera.position.set(10,4,30);
+			camera.lookAt( new THREE.Vector3(0,0,0));
+
+			titanic = new THREE.Object3D();
+
+			//scafo
+			var hull = new Hull();
+			var h = hull.getHull();
+			h.position.set(-0.5, 0, 0);
+			titanic.add(h);
+
+			//ponte
+			var deck = new Deck();
+			var d = deck.getDeck();
+			d.position.set(-1, 5, 0);
+			titanic.add(d);
+
+			//fumaioli
+			var funnel = new Funnel();
+			var f1 = funnel.getFunnel();
+			f1.position.set(-11.5, 9, -0.5);
+			titanic.add(f1);
+
+			var f2 = f1.clone();
+			f2.position.set(-3.5, 9, -0.5);
+			titanic.add(f2);
+
+			var f3 = f1.clone();
+			f3.position.set(4.5, 9, -0.5);
+			titanic.add(f3);
+
+			var f4 = f1.clone();
+			f4.position.set(12.5, 9, -0.5);
+			titanic.add(f4);
+
+			//prua
+			var bow = new Bow();
+			var b = bow.getBow();
+			b.position.set(25.5, 1, 0);
+			titanic.add(b);
+
+			//poppa
+			var stern = new Stern();
+			var s = stern.getStern();
+			s.position.set(-26, 1, 0);
+			titanic.add(s);
+
+			scene.add( titanic );
+
+			stats = new Stats();
+			stats.domElement.style.position = 'absolute';
+			stats.domElement.style.top = '0px';
+			document.body.appendChild( stats.domElement );
+
+			// uncomment if you need to draw coordinate axes when building the scene
+			//Coordinates.drawAllAxes();
+
+			controls = new THREE.OrbitControls( camera );
+			controls.addEventListener( 'change', Render );
+
+
+		}
+
+		function Update() {
+			requestAnimationFrame( Update );
+			controls.update();
+			stats.update();
+			Render();
+		}
+
+		function Render() {
+
+			renderer.render(scene, camera);
+		}
+
+		Start();
+		Update();
+
+		</script>
+	</body>
+</html>
