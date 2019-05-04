@@ -25,6 +25,7 @@
 		<script src="parts/funnel.js"></script>
 		<script src="parts/bow.js"></script>
 		<script src="parts/stern.js"></script>
+		<script src="parts/terrain.js"></script>
 	</head>
 	<body>
 
@@ -38,11 +39,27 @@
 
 			renderer = new THREE.WebGLRenderer( {antialias: true} );
 			renderer.setSize( window.innerWidth, window.innerHeight );
-			renderer.setClearColor( 0xf0f0f0 );
+			renderer.setClearColor( 0x000000 );
 			document.body.appendChild( renderer.domElement );
 
 			camera.position.set(10,4,30);
 			camera.lookAt( new THREE.Vector3(0,0,0));
+
+			//terrain
+			var img = new Image();
+			img.onload = function () {
+
+				//get height data from img
+				data = getHeightData(img,0.1);
+
+				//creazione terrain
+				var terrain = new Terrain(data, img);
+				var t = terrain.getTerrain();
+				t.position.set(-img.width/2, 0, -img.height/2);
+				scene.add(t);
+			}
+			// load img source
+			img.src = "textures/heightmapProve.png";
 
 			titanic = new THREE.Object3D();
 
@@ -88,6 +105,9 @@
 			s.position.set(-26, 1, 0);
 			titanic.add(s);
 
+			titanic.scale.set(0.5, 0.5, 0.5);
+			titanic.position.set(-20, 0, -25);
+			titanic.rotation.y = -70 * Math.PI/180;
 			scene.add( titanic );
 
 			stats = new Stats();
