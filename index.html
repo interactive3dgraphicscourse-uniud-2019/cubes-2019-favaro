@@ -128,6 +128,18 @@
 			requestAnimationFrame( Update );
 			controls.update();
 			stats.update();
+			//t1 = Date.now();
+			if (titanic.rotation.y < -45 * Math.PI/180){
+				titanic.position.x += 0.1 * Math.cos(-titanic.rotation.y);
+				titanic.position.z += 0.1 * Math.sin(-titanic.rotation.y);
+				titanic.rotation.y += 0.002;
+			} else if (titanic.position.z < 15) {
+				titanic.position.x += 0.1 * Math.cos(-titanic.rotation.y);
+				titanic.position.z += 0.1 * Math.sin(-titanic.rotation.y);
+				titanic.position.y -= 0.005;
+			} else {
+				titanic.rotation.x += 0.001;
+			}
 			Render();
 		}
 
