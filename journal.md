@@ -45,4 +45,5 @@
 * Prove di disegno di una heightmap (utilizzando Microsoft Paint) e interazioni con la funzione.
 * Scrittura del codice della classe **Terrain** che contiene la funzione per la creazione del terreno (cioè l'oceano e l'iceberg).
 * Progettazione e prove di creazione dell'iceberg nella heightmap.
+* Prime prove di animazione della scena (impatto e naufragio).
 * Aggiornamento del journal.
