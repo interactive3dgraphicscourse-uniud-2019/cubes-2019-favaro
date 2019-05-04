@@ -1,6 +1,6 @@
 # 27 aprile 2019
 
-* Lettura e comprensione della consegna nella repository `cubes`.
+* Lettura e comprensione della consegna nella repository `Cubes`.
 * Valutazione sul tipo di scena da rappresentare: preferibile utilizzare come spunto una scena famosa tratta da un film o da un avvenimento celebre.
 * Decisione di rappresentare l'incidente del Titanic per la grande quantità di materiale online dal quale prendere ispirazione.
 * Ricerca di immagini e materiale utile per la realizzazione della scena.
@@ -23,13 +23,13 @@
 * Risultati di prova accettabili.
 * Aggiornamento del journal.
 * Decisione di suddividere il Titanic in 5 parti per semplificare il codice e la costruzione: scafo, ponte, fumaioli, prua e poppa.
-* Inizio scrittura del codice dello scafo.
+* Inizio scrittura del codice dello scafo (classe **Hull**).
 * Aggiornamento del journal.
 
 # 2 maggio 2019
 
-* Scrittura del codice dello scafo, del ponte e dei fumaioli.
-* Alcune difficoltà con la scrittura del codice di poppa e prua: il risultato sembra presentare errori di costruzione.
+* Scrittura del codice dello scafo (classe **Hull**), del ponte (**Deck**) e dei fumaioli (**Funnel**).
+* Alcune difficoltà con la scrittura del codice di poppa (**Stern**) e prua (**Bow**): il risultato sembra presentare errori di costruzione.
 * Aggiornamento del journal.
 
 # 3 maggio 2019
@@ -37,4 +37,12 @@
 * Creazione della repository del progetto.
 * Risoluzione problemi di poppa e prua grazie all'utilizzo di cubi wireframe.
 * Fine della scrittura del codice delle parti del Titanic.
+* Aggiornamento del journal.
+
+# 4 maggio 2019
+
+* Prove di utilizzo della funzione fornita (*getHeightData*) per comprendere il meccanismo della creazione del terreno.
+* Prove di disegno di una heightmap (utilizzando Microsoft Paint) e interazioni con la funzione.
+* Scrittura del codice della classe **Terrain** che contiene la funzione per la creazione del terreno (cioè l'oceano e l'iceberg).
+* Progettazione e prove di creazione dell'iceberg nella heightmap.
 * Aggiornamento del journal.
