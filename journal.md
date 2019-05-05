@@ -46,4 +46,5 @@
 * Scrittura del codice della classe **Terrain** che contiene la funzione per la creazione del terreno (cioè l'oceano e l'iceberg).
 * Progettazione e prove di creazione dell'iceberg nella heightmap.
 * Prime prove di animazione della scena (impatto e naufragio).
+* Valutazioni sull'inserimento di nebbia.
 * Aggiornamento del journal.
