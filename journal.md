@@ -48,3 +48,9 @@
 * Prime prove di animazione della scena (impatto e naufragio).
 * Valutazioni sull'inserimento di nebbia.
 * Aggiornamento del journal.
+
+# 9 maggio 2019
+
+* Aggiornamento di alcuni file della cartella `lib`, sostituiti con versioni più moderne.
+* Lavoro sulle animazioni dell'impatto e della prima fase del naufragio.
+* Aggiornamento del journal.
