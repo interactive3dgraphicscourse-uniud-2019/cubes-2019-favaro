@@ -42,7 +42,7 @@
 			renderer.setClearColor( 0x000000 );
 			document.body.appendChild( renderer.domElement );
 
-			camera.position.set(10,4,30);
+			camera.position.set(10,4,20);
 			camera.lookAt( new THREE.Vector3(0,0,0));
 
 			//terrain
@@ -109,7 +109,7 @@
 			titanic.position.set(-20, 0, -25);
 			titanic.rotation.y = -70 * Math.PI/180;
 			scene.add( titanic );
-
+/*
 			// prova ground
 			var groundGeo = new THREE.PlaneBufferGeometry( 10000, 10000 );
 			var groundMat = new THREE.MeshBasicMaterial( { color: 0x0147fa } );
@@ -123,7 +123,7 @@
 			fogColor = new THREE.Color(0x0147fa);
 			//scene.background = fogColor;
 			scene.fog = new THREE.Fog(fogColor, 0.0025, 75);
-
+*/
 
 			stats = new Stats();
 			stats.domElement.style.position = 'absolute';
@@ -142,8 +142,32 @@
 		function Update() {
 			requestAnimationFrame( Update );
 			controls.update();
-			stats.update();
-			//t1 = Date.now();
+			stats.update()
+			///*
+			delta = time.getDelta();
+			if (titanic.rotation.y < -45 * Math.PI/180){
+				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y);
+				titanic.position.z += delta * (40/9) * Math.sin(-titanic.rotation.y);
+				titanic.rotation.y += delta * (45/9) * Math.PI/180;
+			} else if (titanic.position.z < 15) {
+				//TODO sistemare delta * dec
+				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y) - delta * dec;
+				titanic.position.z += delta * (40/9) *Math.sin(-titanic.rotation.y) - delta * dec;
+				titanic.position.y -= delta * (0.5/5.5);
+				dec += 0.007;
+				console.log(titanic.position.y);
+			} else if (titanic.rotation.x < 30 * Math.PI/180){
+				titanic.rotation.x += delta * 0.001;
+			} else if (titanic.position.y > - 10) {
+				titanic.position.x += delta * Math.cos(-titanic.rotation.y);
+				titanic.position.z += delta * Math.sin(-titanic.rotation.y);
+				titanic.position.y -= delta * Math.sin(titanic.rotation.x);
+			} else {
+				titanic.position.set(-20, 0, -25);
+				titanic.rotation.set(0, -70 * Math.PI/180, 0);
+			}
+			//*/
+			/*
 			if (titanic.rotation.y < -45 * Math.PI/180){
 				titanic.position.x += 0.1 * Math.cos(-titanic.rotation.y);
 				titanic.position.z += 0.1 * Math.sin(-titanic.rotation.y);
@@ -162,6 +186,7 @@
 				titanic.position.set(-20, 0, -25);
 				titanic.rotation.set(0, -70 * Math.PI/180, 0);
 			}
+			*/
 			Render();
 		}
 
@@ -171,6 +196,8 @@
 		}
 
 		Start();
+		var dec = 0; //variabile usata per implementare la decelerazione
+		var time = new THREE.Clock();
 		Update();
 
 		</script>
