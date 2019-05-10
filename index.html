@@ -150,21 +150,23 @@
 				titanic.position.z += delta * (40/9) * Math.sin(-titanic.rotation.y);
 				titanic.rotation.y += delta * (45/9) * Math.PI/180;
 			} else if (titanic.position.z < 15) {
-				//TODO sistemare delta * dec
-				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y) - delta * dec;
-				titanic.position.z += delta * (40/9) *Math.sin(-titanic.rotation.y) - delta * dec;
+				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y) - dec;
+				titanic.position.z += delta * (40/9) * Math.sin(-titanic.rotation.y) - dec;
 				titanic.position.y -= delta * (0.5/5.5);
-				dec += 0.007;
-				console.log(titanic.position.y);
+				dec += 0.004 * delta;
+			} else if (titanic.rotation.x < 10 * Math.PI/180){
+				titanic.rotation.x += delta * (10/6) * Math.PI/180;
+				titanic.position.y -= delta * (0.5/5.5);
 			} else if (titanic.rotation.x < 30 * Math.PI/180){
-				titanic.rotation.x += delta * 0.001;
+				titanic.rotation.x += delta * (30/9) * Math.PI/180;
 			} else if (titanic.position.y > - 10) {
-				titanic.position.x += delta * Math.cos(-titanic.rotation.y);
-				titanic.position.z += delta * Math.sin(-titanic.rotation.y);
-				titanic.position.y -= delta * Math.sin(titanic.rotation.x);
+				titanic.position.x += delta * (20/9) * Math.cos(-titanic.rotation.y);
+				titanic.position.z += delta * (20/9) * Math.sin(-titanic.rotation.y);
+				titanic.position.y -= delta * (20/9) * Math.sin(titanic.rotation.x);
 			} else {
 				titanic.position.set(-20, 0, -25);
 				titanic.rotation.set(0, -70 * Math.PI/180, 0);
+				dec = 0;
 			}
 			//*/
 			/*
