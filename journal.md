@@ -58,7 +58,7 @@
 
 # 10 maggio 2019
 
-* Lavoro su animazioni: alcuni problemi nell'inserimento della decelerazione della nave.
-* Problemi risolti, animazioni del naufragio completate.
-* inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
+* Lavoro su animazioni: alcuni problemi nell'implementazione della decelerazione della nave.
+* I problemi erano dovuti ad una disattenzione nella scrittura del codice: risolti. Animazioni del naufragio completate.
+* Inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
 * Ricerca di texture per il cielo.
