@@ -53,4 +53,12 @@
 
 * Aggiornamento di alcuni file della cartella `lib`, sostituiti con versioni più moderne.
 * Lavoro sulle animazioni dell'impatto e della prima fase del naufragio.
+* Dopo alcune prove, presa la decisione di utilizzare la classe **Clock** per calcolare i tempi delle animazioni.
 * Aggiornamento del journal.
+
+# 10 maggio 2019
+
+* Lavoro su animazioni: alcuni problemi nell'inserimento della decelerazione della nave.
+* Problemi risolti, animazioni del naufragio completate.
+* inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
+* Ricerca di texture per il cielo.
