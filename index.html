@@ -45,6 +45,9 @@
 			camera.position.set(10,4,20);
 			camera.lookAt( new THREE.Vector3(0,0,0));
 
+			var skyTexture = new THREE.TextureLoader().load( "textures/sky3.jpg" );
+			scene.background = skyTexture;
+
 			//terrain
 			var img = new Image();
 			img.onload = function () {
@@ -59,7 +62,7 @@
 				scene.add(t);
 			}
 			// load img source
-			img.src = "textures/heightmapProve.png";
+			img.src = "textures/heightmap.png";
 
 			titanic = new THREE.Object3D();
 
@@ -134,12 +137,15 @@
 			//Coordinates.drawAllAxes();
 
 			controls = new THREE.OrbitControls( camera );
+			// blocco della camera per impedire di andare "sottacqua"
+			controls.maxPolarAngle = 85 * Math.PI/180;
 			controls.addEventListener( 'change', Render );
 
 
 		}
 
 		function Update() {
+			//setTimeout( function() { //riduzione fps
 			requestAnimationFrame( Update );
 			controls.update();
 			stats.update()
@@ -189,6 +195,7 @@
 				titanic.rotation.set(0, -70 * Math.PI/180, 0);
 			}
 			*/
+		//}, 1000/20); //riduzione fps
 			Render();
 		}
 
