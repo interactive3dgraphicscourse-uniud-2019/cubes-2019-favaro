@@ -24,7 +24,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 * La nave risulta troppo grande e pesante da rappresentare: revisione del codice scalando l'immagine e migliorando l'efficienza di alcune parti.
 * Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
 * Riprogettazione su carta della nave con dimensioni minori.
-* Aggiornamento del journal.
+* Aggiornamento journal.
 * Prime prove di disegno del nuovo progetto in three.js.
 
 # 1 maggio 2019
@@ -34,20 +34,20 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Aggiornamento del journal.
 * Decisione di suddividere il Titanic in 5 parti per semplificare il codice e la costruzione: scafo, ponte, fumaioli, prua e poppa.
 * Inizio scrittura del codice dello scafo (classe **Hull**).
-* Aggiornamento del journal.
+* Aggiornamento journal.
 
 # 2 maggio 2019
 
 * Scrittura del codice dello scafo (classe **Hull**), del ponte (**Deck**) e dei fumaioli (**Funnel**).
 * Alcune difficoltà con la scrittura del codice di poppa (**Stern**) e prua (**Bow**): il risultato sembra presentare errori di costruzione.
-* Aggiornamento del journal.
+* Aggiornamento journal.
 
 # 3 maggio 2019
 
 * Creazione della repository del progetto.
 * Risoluzione problemi di poppa e prua grazie all'utilizzo di cubi wireframe.
 * Fine della scrittura del codice delle parti del Titanic.
-* Aggiornamento del journal.
+* Aggiornamento journal.
 
 # 4 maggio 2019
 
@@ -57,14 +57,14 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Progettazione e prove di creazione dell'iceberg nella heightmap.
 * Prime prove di animazione della scena (impatto e naufragio).
 * Valutazioni sull'inserimento di nebbia.
-* Aggiornamento del journal.
+* Aggiornamento journal.
 
 # 9 maggio 2019
 
 * Aggiornamento di alcuni file della cartella `lib`, sostituiti con versioni più moderne.
 * Lavoro sulle animazioni dell'impatto e della prima fase del naufragio.
 * Dopo alcune prove, presa la decisione di utilizzare la classe **Clock** per calcolare i tempi delle animazioni.
-* Aggiornamento del journal.
+* Aggiornamento journal.
 
 # 10 maggio 2019
 
@@ -72,3 +72,4 @@ Immagini da [pngimg.com](https://pngimg.com).
 * I problemi erano dovuti ad una disattenzione nella scrittura del codice: risolti. Animazioni del naufragio completate.
 * Inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
 * Ricerca di texture per il cielo.
+* Aggiornamento journal.
