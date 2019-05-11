@@ -4,7 +4,7 @@
 * Valutazione sul tipo di scena da rappresentare: preferibile utilizzare come spunto una scena famosa tratta da un film o da un avvenimento celebre.
 * Decisione di rappresentare l'incidente del Titanic per la grande quantità di materiale online dal quale prendere ispirazione.
 * Ricerca di immagini e materiale utile per la realizzazione della scena.
-
+<center>
 | ![Titanic png](pics/titanic_PNG1.png) |
 | :-----------------------------------: |
 | [Titanic](https://pngimg.com/download/65349) |
@@ -16,7 +16,7 @@
 | ![Bow png](pics/titanic_PNG37.png) |
 | :--------------------------------: |
 |[Prua](https://pngimg.com/download/65385)|
-
+</center>
 Immagini da [pngimg.com](https://pngimg.com).
 * Prime prove di progettazione della nave su carta e di disegno in three.js.
 * Creazione del file `journal.md`
