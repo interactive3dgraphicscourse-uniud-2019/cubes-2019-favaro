@@ -3,7 +3,7 @@
 * Lettura e comprensione della consegna nella repository `Cubes`.
 * Valutazione sul tipo di scena da rappresentare: preferibile utilizzare come spunto una scena famosa tratta da un film o da un avvenimento celebre.
 * Decisione di rappresentare l'incidente del Titanic per la grande quantità di materiale online dal quale prendere ispirazione.
-* Ricerca di immagini e materiale utile per la realizzazione della scena.
+* Ricerca di immagini e materiale utile per la realizzazione della scena. ![Titanic png](https://pngimg.com/uploads/titanic/titanic_PNG1.png)
 * Prime prove di progettazione della nave su carta e di disegno in three.js.
 * Creazione del file `journal.md`
 
