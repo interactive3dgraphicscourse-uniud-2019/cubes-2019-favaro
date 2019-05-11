@@ -6,10 +6,13 @@
 * Ricerca di immagini e materiale utile per la realizzazione della scena.
 ![Titanic png](https://pngimg.com/uploads/titanic/titanic_PNG1.png)
 [Titanic](https://pngimg.com/download/65349)
+
 ![Deck png](https://pngimg.com/uploads/titanic/titanic_PNG40.png)
 [Ponte](https://pngimg.com/download/65388)
+
 ![Bow png](https://pngimg.com/uploads/titanic/titanic_PNG37.png)
 [Prua](https://pngimg.com/download/65385)
+
 Immagini da [pngimg.com](https://pngimg.com).
 * Prime prove di progettazione della nave su carta e di disegno in three.js.
 * Creazione del file `journal.md`
