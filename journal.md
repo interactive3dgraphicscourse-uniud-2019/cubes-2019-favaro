@@ -9,11 +9,13 @@
 | :-----------------------------------: |
 | [Titanic](https://pngimg.com/download/65349) |
 
-![Deck png](pics/titanic_PNG40.png)
-[Ponte](https://pngimg.com/download/65388)
+| ![Deck png](pics/titanic_PNG40.png) |
+| :---------------------------------: |
+| [Ponte](https://pngimg.com/download/65388) |
 
-![Bow png](pics/titanic_PNG37.png)
-[Prua](https://pngimg.com/download/65385)
+| ![Bow png](pics/titanic_PNG37.png) |
+| :--------------------------------: |
+|[Prua](https://pngimg.com/download/65385)|
 
 Immagini da [pngimg.com](https://pngimg.com).
 * Prime prove di progettazione della nave su carta e di disegno in three.js.
