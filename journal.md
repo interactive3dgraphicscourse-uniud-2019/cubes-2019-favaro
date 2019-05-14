@@ -24,10 +24,21 @@ Immagini da [pngimg.com](https://pngimg.com).
 # 28 aprile 2019
 
 * Progettazione su carta della nave.
+
+| ![First project front](pics/primo_progetto.jpg) |
+| :---------------------------------------------: |
+| Disegno della parte anteriore della nave |
+
 * Prove di disegno del progetto in three.js.
 * La nave risulta troppo grande e pesante da rappresentare: revisione del codice scalando l'immagine e migliorando l'efficienza di alcune parti.
 * Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
-* Riprogettazione su carta della nave con dimensioni minori.
+* Schizzo su carta del progetto con dimensioni minori.
+
+| ![First project front](pics/schizzo_progetto.jpg) |
+| :-----------------------------------------------: |
+| Primo schizzo della nave con le dimensioni riviste |
+
+* Riprogettazione totale su carta della nave.
 * Aggiornamento journal.
 * Prime prove di disegno del nuovo progetto in three.js.
 
