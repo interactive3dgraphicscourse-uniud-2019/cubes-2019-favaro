@@ -34,7 +34,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
 * Schizzo su carta del progetto con dimensioni minori.
 
-| ![First project front](pics/schizzo_progetto.jpg) |
+| ![Second project](pics/schizzo_progetto.jpg) |
 | :-----------------------------------------------: |
 | Primo schizzo della nave con le dimensioni riviste |
 
@@ -55,7 +55,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 * Scrittura del codice dello scafo (classe **Hull**), del ponte (**Deck**) e dei fumaioli (**Funnel**).
 
-| ![First project front](pics/titanic_scr_1.png) |
+| ![Titanic incomplete](pics/titanic_scr_1.png) |
 | :--------------------------------------------: |
 | Nave composta da **Hull**, **Deck** e i quattro **Funnel** |
 
@@ -67,6 +67,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Creazione della repository del progetto.
 * Risoluzione problemi di poppa e prua grazie all'utilizzo di cubi wireframe.
 * Fine della scrittura del codice delle parti del Titanic.
+
+| ![Titanic complete](pics/titanic_scr_2.png) |
+| :-----------------------------------------: |
+| Titanic completo |
+
 * Aggiornamento journal.
 
 # 4 maggio 2019
