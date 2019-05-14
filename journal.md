@@ -80,6 +80,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Prove di disegno di una heightmap (utilizzando Microsoft Paint) e interazioni con la funzione.
 * Scrittura del codice della classe **Terrain** che contiene la funzione per la creazione del terreno (cioè l'oceano e l'iceberg).
 * Progettazione e prove di creazione dell'iceberg nella heightmap.
+
+| ![Iceberg](pics/heightmap_iceberg.png) |
+| :------------------------------------: |
+| Iceberg e porzione di oceano creati tramite la heightmap |
+
 * Prime prove di animazione della scena (impatto e naufragio).
 * Valutazioni sull'inserimento di nebbia.
 * Aggiornamento journal.
