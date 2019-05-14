@@ -54,6 +54,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 # 2 maggio 2019
 
 * Scrittura del codice dello scafo (classe **Hull**), del ponte (**Deck**) e dei fumaioli (**Funnel**).
+
+| ![First project front](pics/titanic_scr_1.png) |
+| :--------------------------------------------: |
+| Nave composta da **Hull**, **Deck** e i quattro **Funnel** |
+
 * Alcune difficoltà con la scrittura del codice di poppa (**Stern**) e prua (**Bow**): il risultato sembra presentare errori di costruzione.
 * Aggiornamento journal.
 
