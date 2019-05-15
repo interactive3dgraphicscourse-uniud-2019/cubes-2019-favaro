@@ -35,7 +35,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Schizzo su carta del progetto con dimensioni minori.
 
 | ![Second project](pics/schizzo_progetto.jpg) |
-| :-----------------------------------------------: |
+| :------------------------------------------: |
 | Primo schizzo della nave con le dimensioni riviste |
 
 * Riprogettazione totale su carta della nave.
@@ -56,7 +56,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Scrittura del codice dello scafo (classe **Hull**), del ponte (**Deck**) e dei fumaioli (**Funnel**).
 
 | ![Titanic incomplete](pics/titanic_scr_1.png) |
-| :--------------------------------------------: |
+| :-------------------------------------------: |
 | Nave composta da **Hull**, **Deck** e i quattro **Funnel** |
 
 * Alcune difficoltà con la scrittura del codice di poppa (**Stern**) e prua (**Bow**): il risultato sembra presentare errori di costruzione.
