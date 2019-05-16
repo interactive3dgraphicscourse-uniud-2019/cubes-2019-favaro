@@ -6,10 +6,10 @@ class Terrain{
     var geometry = new THREE.BoxGeometry(1,1,1);
 
     var seaTexture = THREE.ImageUtils.loadTexture('textures/sea.png');
-    //var iceTexture = THREE.ImageUtils.loadTexture('textures/ice.png');
+    var iceTexture = THREE.ImageUtils.loadTexture('textures/ice.jpg');
 
     var materialSea = new THREE.MeshBasicMaterial( { map: seaTexture } );
-    var materialIce = new THREE.MeshBasicMaterial( { color: 0xf8f8ff } );
+    var materialIce = new THREE.MeshBasicMaterial( { map: iceTexture } );
 
     var boxSea = new THREE.Mesh( geometry, materialSea );
     var boxIce = new THREE.Mesh( geometry, materialIce );

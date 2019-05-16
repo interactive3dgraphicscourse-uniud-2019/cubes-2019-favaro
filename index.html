@@ -5,7 +5,7 @@
 
 		body {
 			font-family: Monospace;
-			background-color: #f0f0f0;
+			background-color: #000000;
 			margin: 0px;
 			overflow: hidden;
 		}
@@ -39,11 +39,10 @@
 
 			renderer = new THREE.WebGLRenderer( {antialias: true} );
 			renderer.setSize( window.innerWidth, window.innerHeight );
-			renderer.setClearColor( 0x000000 );
+			renderer.setClearColor( 0xf0f0f0 );
 			document.body.appendChild( renderer.domElement );
 
-			camera.position.set(10,4,20);
-			camera.lookAt( new THREE.Vector3(0,0,0));
+			camera.position.set(0, 5, 25);
 
 			var skyTexture = new THREE.TextureLoader().load( "textures/sky.jpg" );
 			scene.background = skyTexture;
@@ -113,6 +112,9 @@
 			titanic.rotation.y = -70 * Math.PI/180;
 			scene.add( titanic );
 
+			camera.lookAt( new THREE.Vector3(titanic.position.x, titanic.position.y, titanic.position.z));
+
+
 			// prova ground
 			var groundGeo = new THREE.PlaneBufferGeometry( 10000, 10000 );
 			var groundMat = new THREE.MeshBasicMaterial( { color: 0x000000 } );
@@ -148,7 +150,7 @@
 			requestAnimationFrame( Update );
 			controls.update();
 			stats.update()
-			///*
+			camera.lookAt( new THREE.Vector3(titanic.position.x, titanic.position.y, titanic.position.z));
 			delta = time.getDelta();
 			if (titanic.rotation.y < -45 * Math.PI/180){
 				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y);
@@ -173,27 +175,6 @@
 				titanic.rotation.set(0, -70 * Math.PI/180, 0);
 				dec = 0;
 			}
-			//*/
-			/*
-			if (titanic.rotation.y < -45 * Math.PI/180){
-				titanic.position.x += 0.1 * Math.cos(-titanic.rotation.y);
-				titanic.position.z += 0.1 * Math.sin(-titanic.rotation.y);
-				titanic.rotation.y += 0.002;
-			} else if (titanic.position.z < 15) {
-				titanic.position.x += 0.1 * Math.cos(-titanic.rotation.y);
-				titanic.position.z += 0.1 * Math.sin(-titanic.rotation.y);
-				titanic.position.y -= 0.005;
-			} else if (titanic.rotation.x < 30 * Math.PI/180){
-				titanic.rotation.x += 0.001;
-			} else if (titanic.position.y > - 10) {
-				titanic.position.x += 0.1 * Math.cos(-titanic.rotation.y);
-				titanic.position.z += 0.1 * Math.sin(-titanic.rotation.y);
-				titanic.position.y -= 0.1 * Math.sin(titanic.rotation.x);
-			} else {
-				titanic.position.set(-20, 0, -25);
-				titanic.rotation.set(0, -70 * Math.PI/180, 0);
-			}
-			*/
 		//}, 1000/20); //riduzione fps
 			Render();
 		}
