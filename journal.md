@@ -103,3 +103,14 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
 * Ricerca di texture per il cielo.
 * Aggiornamento journal.
+
+# 16 maggio 2019
+
+ricerca texture mare
+casino
+prova modifica
+modifica con strumenti power point
+cielo
+inserimento ground e nebbia nera per simulare oscurità
+texture ghiaccio
+camera che segue
