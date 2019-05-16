@@ -106,11 +106,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 # 16 maggio 2019
 
-ricerca texture mare
-casino
-prova modifica
-modifica con strumenti power point
-cielo
-inserimento ground e nebbia nera per simulare oscurità
-texture ghiaccio
-camera che segue
+* Decisione di utilizzare una texture per i cubi che rappresentano l'oceano.
+* La ricerca di texture seamless, adatte alla scena e libere da copyright è più complessa del previsto.
+* Prove di modifica di una texture troppo chiara: immagine scurita attraverso gli strumenti di Microsoft Office PowerPoint. Il risultato è graficamente soddisfacente.
+* Aggiunta di una texture per il cielo da inserire in background.
+* Inserimento di un ground e nebbia nera per simulare meglio l'oscurità.
+* Aggiunta una texture per il ghiaccio dell'iceberg.
+* Modificata la telecamera in modo che segua il Titanic durante la scena.
+* Aggiornamento journal.
