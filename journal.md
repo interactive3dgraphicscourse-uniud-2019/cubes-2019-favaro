@@ -32,11 +32,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Prove di disegno del progetto in three.js.
 * La nave risulta troppo grande e pesante da rappresentare: revisione del codice scalando l'immagine e migliorando l'efficienza di alcune parti.
 * Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
-* Schizzo su carta del progetto con dimensioni minori.
+* Bozza su carta del progetto con dimensioni minori.
 
-| ![Second project](pics/schizzo_progetto.jpg) |
-| :------------------------------------------: |
-| Primo schizzo della nave con le dimensioni riviste |
+| ![Second project](pics/bozza_progetto.jpg) |
+| :----------------------------------------: |
+| Prima bozza della nave con le dimensioni riviste |
 
 * Riprogettazione totale su carta della nave.
 * Aggiornamento journal.
