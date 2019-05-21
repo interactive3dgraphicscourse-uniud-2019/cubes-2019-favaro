@@ -85,7 +85,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 | ![Heightmap](textures/heightmap.png) |
 | :------------------------------: |
-| Heightmap 60x60|
+| Heightmap 60x60 |
 
 * Scrittura del codice della classe **Terrain** che contiene la funzione per la creazione del terreno (cioè l'oceano e l'iceberg).
 * Progettazione e prove di creazione dell'iceberg nella heightmap.
@@ -137,4 +137,10 @@ Immagini da [pngimg.com](https://pngimg.com).
 | Texture per l'iceberg da [Spiral Graphics](http://spiralgraphics.biz/packs/snow_ice/index.htm?23#anchor) |
 
 * Modificata la telecamera in modo che segua il Titanic durante la scena.
+* Aggiornamento journal.
+
+# 21 maggio 2019
+
+* Revisione codice.
+* Redazione README.
 * Aggiornamento journal.
