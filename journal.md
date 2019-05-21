@@ -82,6 +82,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 * Prove di utilizzo della funzione fornita (*getHeightData*) per comprendere il meccanismo della creazione del terreno.
 * Prove di disegno di una heightmap (utilizzando Microsoft Paint) e interazioni con la funzione.
+
+| ![Heightmap](textures/heightmap.png) |
+| :------------------------------: |
+| Heightmap 60x60|
+
 * Scrittura del codice della classe **Terrain** che contiene la funzione per la creazione del terreno (cioè l'oceano e l'iceberg).
 * Progettazione e prove di creazione dell'iceberg nella heightmap.
 
