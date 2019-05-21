@@ -46,7 +46,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 | ![Final project](pics/progetto_definitivo.jpg) |
 | :--------------------------------------------: |
-| Disegno del progetto finale del Titanic |
+| Disegno del progetto definitivo del Titanic |
 
 * Revisione progetto e prove di disegno in three.js.
 * Risultati di prova accettabili.
@@ -113,8 +113,23 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Decisione di utilizzare una texture per i cubi che rappresentano l'oceano.
 * La ricerca di texture seamless, adatte alla scena e libere da copyright è più complessa del previsto.
 * Prove di modifica di una texture troppo chiara: immagine scurita attraverso gli strumenti di Microsoft Office PowerPoint. Il risultato è graficamente soddisfacente.
+
+| ![Sea texture](textures/sea.png) |
+| :------------------------------: |
+| Texture per l'oceano da [3DJungle](https://3djungle.net/textures/water/1832/) scurita con Microsoft Office PowerPoint |
+
 * Aggiunta di una texture per il cielo da inserire in background.
+
+| ![Sky texture](textures/sky.jpg) |
+| :------------------------------: |
+| Texture per il cielo da [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=9767&picture=starry-night) |
+
 * Inserimento di un ground e nebbia nera per simulare meglio l'oscurità.
 * Aggiunta una texture per il ghiaccio dell'iceberg.
+
+| ![Ice texture](textures/ice.jpg) |
+| :------------------------------: |
+| Texture per l'iceberg da [Spiral Graphics](http://spiralgraphics.biz/packs/snow_ice/index.htm?23#anchor) |
+
 * Modificata la telecamera in modo che segua il Titanic durante la scena.
 * Aggiornamento journal.
