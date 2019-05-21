@@ -44,7 +44,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 # 1 maggio 2019
 
-* Revisione progetto e prove di disegno del nuovo progetto in three.js.
+| ![Final project](pics/progetto_definitivo.jpg) |
+| :--------------------------------------------: |
+| Disegno del progetto finale del Titanic |
+
+* Revisione progetto e prove di disegno in three.js.
 * Risultati di prova accettabili.
 * Aggiornamento del journal.
 * Decisione di suddividere il Titanic in 5 parti per semplificare il codice e la costruzione: scafo, ponte, fumaioli, prua e poppa.
