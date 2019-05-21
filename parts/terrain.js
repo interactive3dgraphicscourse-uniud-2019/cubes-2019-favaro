@@ -1,3 +1,4 @@
+//creazione terrain
 class Terrain{
 
   constructor(data, img){

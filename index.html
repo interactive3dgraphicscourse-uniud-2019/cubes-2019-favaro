@@ -18,7 +18,6 @@
 	</style>
 		<script src="lib/three.min.js"></script>
 		<script src="lib/stats.min.js"></script>
-		<script src="lib/Coordinates.js"></script>
 		<script src="lib/OrbitControls.js"></script>
 		<script src="parts/hull.js"></script>
 		<script src="parts/deck.js"></script>
@@ -44,6 +43,7 @@
 
 			camera.position.set(0, 5, 25);
 
+			//cielo
 			var skyTexture = new THREE.TextureLoader().load( "textures/sky.jpg" );
 			scene.background = skyTexture;
 
@@ -63,6 +63,7 @@
 			// load img source
 			img.src = "textures/heightmap.png";
 
+			//nave
 			titanic = new THREE.Object3D();
 
 			//scafo
@@ -114,19 +115,16 @@
 
 			camera.lookAt( new THREE.Vector3(titanic.position.x, titanic.position.y, titanic.position.z));
 
-
-			// prova ground
-			var groundGeo = new THREE.PlaneBufferGeometry( 10000, 10000 );
-			var groundMat = new THREE.MeshBasicMaterial( { color: 0x000000 } );
-			//groundMat.color.setHSL( 0.095, 1, 0.75 );
-			var ground = new THREE.Mesh( groundGeo, groundMat );
+			//ground
+			var groundGeometry = new THREE.PlaneBufferGeometry( 10000, 10000 );
+			var groundMaterial = new THREE.MeshBasicMaterial( { color: 0x000000 } );
+			var ground = new THREE.Mesh( groundGeometry, groundMaterial );
 			ground.position.y = 0.30;
 			ground.rotation.x = -Math.PI/2;
 			scene.add( ground );
 
-			// prova fog
+			//nebbia
 			fogColor = new THREE.Color(0x000000);
-			//scene.background = fogColor;
 			scene.fog = new THREE.Fog(fogColor, 0.0025, 75);
 
 			stats = new Stats();
@@ -134,15 +132,10 @@
 			stats.domElement.style.top = '0px';
 			document.body.appendChild( stats.domElement );
 
-			// uncomment if you need to draw coordinate axes when building the scene
-			//Coordinates.drawAllAxes();
-
 			controls = new THREE.OrbitControls( camera );
 			// blocco della camera per impedire di andare "sottacqua"
 			controls.maxPolarAngle = 85 * Math.PI/180;
 			controls.addEventListener( 'change', Render );
-
-
 		}
 
 		function Update() {
