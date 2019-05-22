@@ -16,4 +16,4 @@ L'incidente ebbe un impatto mediatico enorme: il Titanic era la nave più famosa
 ## File e cartelle
 
 * Prova
-- altra prova
+  * altra prova
