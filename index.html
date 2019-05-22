@@ -134,7 +134,7 @@
 			document.body.appendChild( stats.domElement );
 
 			controls = new THREE.OrbitControls( camera );
-			// blocco della camera per impedire di andare "sottacqua"
+			//blocco della camera per impedire di andare "sottacqua"
 			controls.maxPolarAngle = 85 * Math.PI/180;
 			controls.addEventListener( 'change', Render );
 		}
@@ -144,7 +144,8 @@
 			requestAnimationFrame( Update );
 			controls.update();
 			stats.update()
-			camera.lookAt( new THREE.Vector3(titanic.position.x, titanic.position.y, titanic.position.z));
+			//la camera segue il Titanic per tutta la scena
+			camera.lookAt(new THREE.Vector3(titanic.position.x, titanic.position.y, titanic.position.z));
 			//animazioni
 			delta = time.getDelta();
 			if (titanic.rotation.y < -45 * Math.PI/180){
