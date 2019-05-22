@@ -1,6 +1,6 @@
 # 27 aprile 2019
 
-* Lettura e comprensione della consegna nella repository `**Cubes**`.
+* Lettura e comprensione della consegna nella repository **`Cubes`**.
 * Valutazione sul tipo di scena da rappresentare: preferibile utilizzare come spunto una scena famosa tratta da un film o da un avvenimento celebre.
 * Decisione di rappresentare l'incidente del Titanic per la grande quantità di materiale online dal quale prendere ispirazione.
 * Ricerca di immagini e materiale utile per la realizzazione della scena.
