@@ -1,6 +1,6 @@
 # 27 aprile 2019
 
-* Lettura e comprensione della consegna nella repository `Cubes`.
+* Lettura e comprensione della consegna nella repository `**Cubes**`.
 * Valutazione sul tipo di scena da rappresentare: preferibile utilizzare come spunto una scena famosa tratta da un film o da un avvenimento celebre.
 * Decisione di rappresentare l'incidente del Titanic per la grande quantità di materiale online dal quale prendere ispirazione.
 * Ricerca di immagini e materiale utile per la realizzazione della scena.
@@ -100,7 +100,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 # 9 maggio 2019
 
-* Aggiornamento di alcuni file della cartella `lib`, sostituiti con versioni più moderne.
+* Aggiornamento di alcuni file della cartella `**lib**`, sostituiti con versioni più moderne.
 * Lavoro sulle animazioni dell'impatto e della prima fase del naufragio.
 * Dopo alcune prove, presa la decisione di utilizzare la classe **Clock** per calcolare i tempi delle animazioni.
 * Aggiornamento journal.

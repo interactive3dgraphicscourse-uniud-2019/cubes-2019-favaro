@@ -15,5 +15,21 @@ L'incidente ebbe un impatto mediatico enorme: il Titanic era la nave più famosa
 
 ## File e cartelle
 
-* Prova
-  * altra prova
+* `**lib**`: contiene le librerie necessarie al funzionamento del progetto.
+* `**parts**`: contiene le classi Javascript per la costruzione del Titanic e del terrain.
+  * `bow.js`: classe per la creazione della prua del Titanic.
+  * `deck.js`: classe per la creazione del ponte della nave.
+  * `funnel.js`: classe per la creazione dei fumaioli.
+  * `hull.js`: classe per la creazione dello scafo.
+  * `stern.js`: classe per la creazione della poppa della nave.
+  * `terrain.js`: classe per la creazione del terreno. In questo file è contenuta anche la funzione *getHeightData* fornita nel codice di partenza.
+* `**pics**`: contiene le immagini inserite in questo file e nel `journal.md`.
+* `**StartingCode**`: contiene i file di partenza forniti per questo progetto.
+* `**textures**`: contiene le textures utilizzate nella scena e la heightmap usata per la creazione del terreno.
+  * `heightmap.png`: la heightmap in scala di grigi.
+  * `ice.jpg`: texture per l'iceberg.
+  * `sea.png`: texture per l'oceano.
+  * `sky.jpg`: texture utilizzata in background per simulare il cielo notturno.
+* `index.html`: file principale che contiene il codice del progetto.
+* `journal.md`: file che contiene il processo di sviluppo del progetto: qui vengono segnalati i progressi giornalieri e le scelte effettuate.
+* `README.md`: questo file.
