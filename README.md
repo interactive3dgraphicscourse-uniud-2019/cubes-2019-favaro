@@ -15,7 +15,7 @@ L'incidente ebbe un impatto mediatico enorme: il Titanic era la nave più famosa
 
 ## File e cartelle
 
-* `**lib**`: contiene le librerie necessarie al funzionamento del progetto.
+* **`lib`**: contiene le librerie necessarie al funzionamento del progetto.
 * `**parts**`: contiene le classi Javascript per la costruzione del Titanic e del terrain.
   * `bow.js`: classe per la creazione della prua del Titanic.
   * `deck.js`: classe per la creazione del ponte della nave.
