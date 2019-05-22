@@ -27,9 +27,9 @@ L'incidente ebbe un impatto mediatico enorme: il Titanic era la nave più famosa
 * **`StartingCode`**: contiene i file di partenza forniti per questo progetto.
 * **`textures`**: contiene le textures utilizzate nella scena e la heightmap usata per la creazione del terreno.
   * `heightmap.png`: la heightmap in scala di grigi.
-  * `ice.jpg`: texture per l'iceberg.
-  * `sea.png`: texture per l'oceano.
-  * `sky.jpg`: texture utilizzata in background per simulare il cielo notturno.
+  * `ice.jpg`: texture per l'iceberg da [Spiral Graphics](http://spiralgraphics.biz/packs/snow_ice/index.htm?23#anchor).
+  * `sea.png`: texture per l'oceano da [3DJungle](https://3djungle.net/textures/water/1832/) scurita con Microsoft Office PowerPoint.
+  * `sky.jpg`: texture utilizzata in background per simulare il cielo notturno (da [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=9767&picture=starry-night)).
 * `index.html`: file principale che contiene il codice del progetto.
 * `journal.md`: file che contiene il processo di sviluppo del progetto: qui vengono segnalati i progressi giornalieri e le scelte effettuate.
 * `README.md`: questo file.

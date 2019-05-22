@@ -100,7 +100,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 # 9 maggio 2019
 
-* Aggiornamento di alcuni file della cartella `**lib**`, sostituiti con versioni più moderne.
+* Aggiornamento di alcuni file della cartella **`lib`**, sostituiti con versioni più moderne.
 * Lavoro sulle animazioni dell'impatto e della prima fase del naufragio.
 * Dopo alcune prove, presa la decisione di utilizzare la classe **Clock** per calcolare i tempi delle animazioni.
 * Aggiornamento journal.
