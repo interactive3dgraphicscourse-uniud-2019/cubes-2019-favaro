@@ -7,6 +7,8 @@ PROGETTO IN FASE DI SVILUPPO
 
 ## Descrizione
 
+//screenshot
+
 La scena rappresentata in questo progetto è una ricostruzione semplificata del celebre incidente avvenuto nella notte tra il 14 e il 15 aprile 1912 che ha portato al naufragio del leggendario transatlantico RMS Titanic. La nave, un capolavoro ingegneristico dell'epoca, era la più grande e lussuosa al mondo ma, nonostante fosse considerata pressoché inaffondabile, naufragò nell'oceano Atlantico a causa dell'impatto con un iceberg proprio durante il suo viaggio inaugurale.
 
 Il Titanic colpì di striscio la massa di ghiaccio con la parte destra della prua, aprendo una falla nello scafo. Iniziò quindi ad immagazzinare acqua, sprofondando inesorabilmente. La parte anteriore venne velocemente sommersa, causando il sollevamento della poppa verso l'alto fino a formare un angolo di circa 30 gradi con il mare. A quel punto la nave si spezzò in due tronconi per poi inabissarsi rapidamente. Molto probabilmente, però, il Titanic si divise sotto la superficie dell'acqua: i testimoni oculari raccontarono infatti di aver visto il transatlantico affondare tutto intero, pertanto è questa la situazione che viene rappresentata nella ricostruzione di questo progetto.
@@ -48,7 +50,7 @@ La scena racchiude in pochi secondi il naufragio dall'impatto alla completa imme
 - raggiunto un angolo di 30 gradi col mare, il Titanic affonda negli abissi
 - la nave viene riportata nella posizione iniziale e la scena riparte.
 
-//camera
+La camera osserva lo scenario seguendo i movimenti del Titanic. L'osservatore è libero di spostarla con il mouse in tutte le direzioni ma non sotto il livello del mare, mantenendo comunque l'obiettivo puntato sul transatlantico.
 
 //risultati da lt
 
