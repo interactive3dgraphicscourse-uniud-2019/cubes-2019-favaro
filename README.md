@@ -80,8 +80,16 @@ La creazione del terreno è stata affidata ad una classe apposita che sfrutta la
 | :------------------------------------: |
 | Iceberg e porzione di oceano creati tramite la heightmap |
 
-Il passo successivo è stato quello di dedicarsi alle animazioni per ricreare l'incidente. Il grafo della scena è abbastanza semplice: oltre al ground (che è stato aggiunto in seguito), sono presenti il terreno e il Titanic. Quest'ultimo è l'unico oggetto interessato alle animazioni ed è a sua volta composto da scafo (HULL), ponte (DECK), prua (BOW), poppa (STERN) e dai fumaioli (FUNNEL), che sono quattro oggetti identici ottenuti tramite clonazione del primo elemento. La nave si comporta comunque come una singola entità durante tutte le animazioni.
+Il passo successivo è stato quello di dedicarsi alle animazioni per ricreare l'incidente. Il grafo della scena è abbastanza semplice: oltre al ground (che è stato aggiunto in seguito), sono presenti il terreno e il Titanic. Quest'ultimo è l'unico oggetto interessato alle animazioni ed è a sua volta composto da scafo (HULL), ponte (DECK), prua (BOW), poppa (STERN) e dai fumaioli (FUNNEL), che sono quattro oggetti identici ottenuti tramite clonazione del primo elemento. La nave si comporta comunque come un singolo corpo rigido durante tutte le animazioni.
 
 | ![Scene graph](pics/scene_graph.png) |
 | :----------------------------------: |
 | Grafo della scena |
+
+Le varie fasi dell'incidente ricostruite tramite le animazioni sono descritte nella sezione precedente.
+
+| ![Animation](pics/anim.png) |
+| :-------------------------: |
+| Animazioni del naufragio |
+
+In seguito è stata modificata la camera e sono stati aggiunti il ground e la nebbia per dare un maggiore senso di oscurità alla scena. Sono poi state inserite le texture per il [mare](https://3djungle.net/textures/water/1832/) (leggermente modificata), l'[iceberg](http://spiralgraphics.biz/packs/snow_ice/index.htm?23#anchor) e il [cielo](https://www.publicdomainpictures.net/en/view-image.php?image=9767&picture=starry-night) in background. Tutte le texture sono state utilizzate rispettando le relative licenze.

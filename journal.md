@@ -108,6 +108,11 @@ Immagini da [pngimg.com](https://pngimg.com).
 # 10 maggio 2019
 
 * Lavoro su animazioni: alcuni problemi nell'implementazione della decelerazione della nave.
+
+| ![Animation](pics/anim.png) |
+| :-------------------------: |
+| Animazioni del naufragio |
+
 * I problemi erano dovuti ad una disattenzione nella scrittura del codice: risolti. Animazioni del naufragio completate.
 * Inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
 * Ricerca di texture per il cielo.
@@ -129,6 +134,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 | :------------------------------: |
 | Texture per il cielo da [PublicDomainPictures.net](https://www.publicdomainpictures.net/en/view-image.php?image=9767&picture=starry-night) |
 
+* Leggero schiarimento del colore della sommità dei fumaioli per renderli distinguibili dal cielo.
 * Inserimento di un ground e nebbia nera per simulare meglio l'oscurità.
 * Aggiunta una texture per il ghiaccio dell'iceberg.
 
