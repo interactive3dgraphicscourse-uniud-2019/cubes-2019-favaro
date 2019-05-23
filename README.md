@@ -7,7 +7,7 @@ PROGETTO IN FASE DI SVILUPPO
 
 ## Descrizione
 
-//screenshot
+![Titanic](pics/titanic.png)
 
 La scena rappresentata in questo progetto è una ricostruzione semplificata del celebre incidente avvenuto nella notte tra il 14 e il 15 aprile 1912 che ha portato al naufragio del leggendario transatlantico RMS Titanic. La nave, un capolavoro ingegneristico dell'epoca, era la più grande e lussuosa al mondo ma, nonostante fosse considerata pressoché inaffondabile, naufragò nell'oceano Atlantico a causa dell'impatto con un iceberg proprio durante il suo viaggio inaugurale.
 
@@ -38,9 +38,9 @@ L'incidente ebbe un impatto mediatico enorme: il Titanic era la nave più famosa
 
 ## Risultati
 
-//screenshots
-
 Il progetto è stato sviluppato modificando il codice del file `StartingCode-nolights.html`. La scena rappresentata contiene il Titanic e il terreno, ottenuto utilizzando le funzioni presenti in `StartingCode-heightmap.html`, che comprende l'iceberg e la porzione di oceano in cui si svolge la ricostruzione. Per simulare meglio la grande oscurità che fu tra le cause dell'incidente (era una notte di Luna nuova e il buio impedì alle vedette di avvistare in tempo l'iceberg), sono stati aggiunti un ground (simile a quello presente nel file `StartingCode-withlights.html`) completamente nero attorno al terreno e una nebbia anch'essa nera. Come da consegna, nave e terreno sono formati da box opportunamente scalati, traslati e ruotati. Il terreno è ottenuto a partire da una heightmap 60x60 in scala di grigi.
+
+![Result1](pics/scr_pr1.png)
 
 La scena racchiude in pochi secondi il naufragio dall'impatto alla completa immersione della nave. Le animazioni sono suddivise in 6 fasi:
 - all'inizio il Titanic sta virando disperatamente nel tentativo di schivare l'iceberg ma non riesce ad evitare la collisione
@@ -49,6 +49,8 @@ La scena racchiude in pochi secondi il naufragio dall'impatto alla completa imme
 - la prua viene sommersa velocemente e la poppa si staglia sempre più verso il cielo
 - raggiunto un angolo di 30 gradi col mare, il Titanic affonda negli abissi
 - la nave viene riportata nella posizione iniziale e la scena riparte.
+
+![Result2](pics/scr_pr2.png)
 
 La camera osserva lo scenario seguendo i movimenti del Titanic. L'osservatore è libero di spostarla con il mouse in tutte le direzioni ma non sotto il livello del mare, mantenendo comunque l'obiettivo puntato sul transatlantico.
 
@@ -102,4 +104,4 @@ In seguito è stata modificata la camera e sono stati aggiunti il ground e la ne
 
 ##
 
-Durante lo sviluppo dell'assignment la mia famiglia è stata colpita da un grave lutto. La situazione e gli impegni imprevisti che ne sono derivati hanno fortemente modificato le tempistiche di lavoro che erano state programmate all'inizio. Ciò motiva lo sviluppo irregolare del progetto che si nota nel journal.
+Durante lo sviluppo dell'assignment la mia famiglia è stata colpita da un grave lutto. La situazione e gli impegni imprevisti che ne sono derivati hanno fortemente modificato le tempistiche di lavoro che erano state programmate all'inizio. Ciò motiva lo sviluppo irregolare e prolungato del progetto che si nota nel journal.
