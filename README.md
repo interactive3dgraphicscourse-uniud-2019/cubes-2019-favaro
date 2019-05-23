@@ -3,8 +3,6 @@
 - Maurizio Favaro (matricola 120099)
 - favaro.maurizio@spes.uniud.it
 
-PROGETTO IN FASE DI SVILUPPO
-
 ## Descrizione
 
 ![Titanic](pics/titanic.png)
@@ -54,7 +52,12 @@ La scena racchiude in pochi secondi il naufragio dall'impatto alla completa imme
 
 La camera osserva lo scenario seguendo i movimenti del Titanic. L'osservatore è libero di spostarla con il mouse in tutte le direzioni ma non sotto il livello del mare, mantenendo comunque l'obiettivo puntato sul transatlantico.
 
-//risultati da lt
+Nelle prove di esecuzione del progetto finale il frame rate è stato di 50-57 fps e durante gli spostamenti manuali della camera poteva scendere a 45 fps.
+Tutte le prove sono state effettuate con un notebook ASUS VivoBook Pro 15 N580VD-FI523T con le seguenti caratteristiche:
+- processore Intel Core i7-7700hq (2.8 ghz)
+- GPU NVIDIA GeForce GTX 1050
+- sistema operativo Windows 10 Home
+- browser Google Chrome versione 74.0.3729.169 (Build ufficiale) (a 64 bit)
 
 ## Processo di sviluppo
 
