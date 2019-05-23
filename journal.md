@@ -31,7 +31,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 * Prove di disegno del progetto in Three.js.
 * La nave risulta troppo grande e pesante da rappresentare: revisione del codice scalando l'immagine e migliorando l'efficienza di alcune parti.
-* Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
+* Risultato non ancora soddisfacente: si rende necessaria una riprogettazione della nave.
 * Bozza su carta del progetto con dimensioni minori.
 
 | ![Second project](pics/bozza_progetto.jpg) |
@@ -152,3 +152,8 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Aggiornamento journal.
 
 # 23 maggio 2019
+
+* Conclusione README.
+* Revisione completa del progetto, sistemati alcuni dettagli.
+* Progetto concluso.
+* Aggiornamento journal.

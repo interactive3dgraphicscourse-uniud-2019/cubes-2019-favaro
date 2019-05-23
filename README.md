@@ -101,6 +101,7 @@ In seguito è stata modificata la camera e sono stati aggiunti il ground e la ne
 * **Atom**: editor per il coding e la gestione della repository.
 * **Microsoft Paint**: utilizzato per la creazione della heightmap in scala di grigi.
 * **Microsoft Office PowerPoint**: utilizzato per scurire la texture dell'oceano.
+* **iLoveIMG**: app online utilizzata per ridimensionare alcune immagini e texture.
 
 ##
 
