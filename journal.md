@@ -150,3 +150,5 @@ Immagini da [pngimg.com](https://pngimg.com).
 * Revisione completa del codice.
 * Inizio redazione README.
 * Aggiornamento journal.
+
+# 23 maggio 2019

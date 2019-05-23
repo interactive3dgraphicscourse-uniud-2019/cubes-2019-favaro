@@ -93,3 +93,6 @@ Le varie fasi dell'incidente ricostruite tramite le animazioni sono descritte ne
 | Animazioni del naufragio |
 
 In seguito è stata modificata la camera e sono stati aggiunti il ground e la nebbia per dare un maggiore senso di oscurità alla scena. Sono poi state inserite le texture per il [mare](https://3djungle.net/textures/water/1832/) (leggermente modificata), l'[iceberg](http://spiralgraphics.biz/packs/snow_ice/index.htm?23#anchor) e il [cielo](https://www.publicdomainpictures.net/en/view-image.php?image=9767&picture=starry-night) in background. Tutte le texture sono state utilizzate rispettando le relative licenze.
+
+//temp
+//strum
