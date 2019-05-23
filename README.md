@@ -55,3 +55,33 @@ La camera osserva lo scenario seguendo i movimenti del Titanic. L'osservatore è
 //risultati da lt
 
 ## Processo di sviluppo
+
+Dopo aver preso la decisione di rappresentare l'incidente del Titanic, il primo passo è stato ricercare materiale online da cui prendere ispirazione per ricreare la nave e la scena. Lo step successivo è stato quello di disegnare il progetto del transatlantico su carta per poi provare a crearlo in Three.js. Dopo alcuni tentativi, il disegno del progetto definitivo è stato portato a termine.
+
+| ![Final project](pics/progetto_definitivo.jpg) |
+| :--------------------------------------------: |
+| Disegno del progetto definitivo del Titanic |
+
+Il Titanic è stato creato suddividendolo in 5 parti per semplificarne il codice e la costruzione: scafo, ponte, fumaioli, prua e poppa. Per ognuna di esse è stata creata una classe.
+
+| ![Titanic complete](pics/titanic_scr_2.png) |
+| :-----------------------------------------: |
+| Titanic completo |
+
+Terminata la nave, l'attenzione si è spostata sulla creazione del terreno: l'idea è stata quella di creare l'iceberg e la porzione di oceano interessata dall'incidente tramite le funzioni fornite e una heightmap. L'immagine in scala di grigi è stata ottenuta modificando quella presente tra i file di partenza del progetto.
+
+| ![Heightmap](textures/heightmap.png) |
+| :------------------------------: |
+| Heightmap 60x60 |
+
+La creazione del terreno è stata affidata ad una classe apposita che sfrutta la funzione *getHeightData* per generare il mare e l'iceberg a partire dalla heightmap.
+
+| ![Iceberg](pics/heightmap_iceberg.png) |
+| :------------------------------------: |
+| Iceberg e porzione di oceano creati tramite la heightmap |
+
+Il passo successivo è stato quello di dedicarsi alle animazioni per ricreare l'incidente. Il grafo della scena è abbastanza semplice: 
+
+| ![Scene graph](pics/scene_graph.png) |
+| :----------------------------------: |
+| Grafo della scena |

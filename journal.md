@@ -18,7 +18,7 @@
 | [Prua](https://pngimg.com/download/65385) |
 
 Immagini da [pngimg.com](https://pngimg.com).
-* Prime prove di progettazione della nave su carta e di disegno in three.js.
+* Prime prove di progettazione della nave su carta e di disegno in Three.js.
 * Creazione del file `journal.md`
 
 # 28 aprile 2019
@@ -29,7 +29,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 | :---------------------------------------------: |
 | Disegno della parte anteriore della nave |
 
-* Prove di disegno del progetto in three.js.
+* Prove di disegno del progetto in Three.js.
 * La nave risulta troppo grande e pesante da rappresentare: revisione del codice scalando l'immagine e migliorando l'efficienza di alcune parti.
 * Risultato non ancora soddisfacente: si rende necessaria una revisione del progetto.
 * Bozza su carta del progetto con dimensioni minori.
@@ -40,7 +40,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 * Riprogettazione totale su carta della nave.
 * Aggiornamento journal.
-* Prime prove di disegno del nuovo progetto in three.js.
+* Prime prove di disegno del nuovo progetto in Three.js.
 
 # 1 maggio 2019
 
@@ -48,7 +48,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 | :--------------------------------------------: |
 | Disegno del progetto definitivo del Titanic |
 
-* Revisione progetto e prove di disegno in three.js.
+* Revisione progetto e prove di disegno in Three.js.
 * Risultati di prova accettabili.
 * Aggiornamento del journal.
 * Decisione di suddividere il Titanic in 5 parti per semplificare il codice e la costruzione: scafo, ponte, fumaioli, prua e poppa.
