@@ -61,7 +61,7 @@ Tutte le prove sono state effettuate con un notebook ASUS VivoBook Pro 15 N580VD
 
 ## Processo di sviluppo
 
-Dopo aver preso la decisione di rappresentare l'incidente del Titanic, il primo passo è stato ricercare materiale online da cui prendere ispirazione per ricreare la nave e la scena. Lo step successivo è stato quello di disegnare il progetto del transatlantico su carta per poi provare a crearlo in Three.js. Dopo alcuni tentativi, il disegno del progetto definitivo è stato portato a termine.
+Dopo aver preso la decisione di rappresentare l'incidente del Titanic, il primo passo è stato quello di ricercare materiale online da cui prendere ispirazione per ricreare la nave e la scena. Lo step successivo è stato quello di disegnare il progetto del transatlantico su carta per poi provare a crearlo in Three.js. Dopo alcuni tentativi, il disegno del progetto definitivo è stato portato a termine.
 
 | ![Final project](pics/progetto_definitivo.jpg) |
 | :--------------------------------------------: |
