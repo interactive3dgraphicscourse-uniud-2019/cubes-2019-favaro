@@ -90,9 +90,16 @@ Le varie fasi dell'incidente ricostruite tramite le animazioni sono descritte ne
 
 | ![Animation](pics/anim.png) |
 | :-------------------------: |
-| Animazioni del naufragio |
+| Prime prove di animazioni del naufragio |
 
 In seguito è stata modificata la camera e sono stati aggiunti il ground e la nebbia per dare un maggiore senso di oscurità alla scena. Sono poi state inserite le texture per il [mare](https://3djungle.net/textures/water/1832/) (leggermente modificata), l'[iceberg](http://spiralgraphics.biz/packs/snow_ice/index.htm?23#anchor) e il [cielo](https://www.publicdomainpictures.net/en/view-image.php?image=9767&picture=starry-night) in background. Tutte le texture sono state utilizzate rispettando le relative licenze.
 
-//temp
-//strum
+### Strumenti
+
+* **Atom**: editor per il coding e la gestione della repository.
+* **Microsoft Paint**: utilizzato per la creazione della heightmap in scala di grigi.
+* **Microsoft Office PowerPoint**: utilizzato per scurire la texture dell'oceano.
+
+##
+
+Durante lo sviluppo dell'assignment la mia famiglia è stata colpita da un grave lutto. La situazione e gli impegni imprevisti che ne sono derivati hanno fortemente modificato le tempistiche di lavoro che erano state programmate all'inizio. Ciò motiva lo sviluppo irregolare del progetto che si nota nel journal.

@@ -111,7 +111,7 @@ Immagini da [pngimg.com](https://pngimg.com).
 
 | ![Animation](pics/anim.png) |
 | :-------------------------: |
-| Animazioni del naufragio |
+| Prime prove di animazioni del naufragio |
 
 * I problemi erano dovuti ad una disattenzione nella scrittura del codice: risolti. Animazioni del naufragio completate.
 * Inserimento blocco verticale della telecamera al livello del mare in modo che l'osservatore non possa osservare sottacqua.
