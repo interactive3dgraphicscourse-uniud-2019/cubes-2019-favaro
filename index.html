@@ -152,7 +152,7 @@
 				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y);
 				titanic.position.z += delta * (40/9) * Math.sin(-titanic.rotation.y);
 				titanic.rotation.y += delta * (45/9) * Math.PI/180;
-			} else if (titanic.position.z < 15) {
+			} else if (titanic.position.z < 12) {
 				titanic.position.x += delta * (40/9) * Math.cos(-titanic.rotation.y) - dec;
 				titanic.position.z += delta * (40/9) * Math.sin(-titanic.rotation.y) - dec;
 				titanic.position.y -= delta * (0.5/5.5);
