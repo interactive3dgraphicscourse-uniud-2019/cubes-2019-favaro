@@ -134,7 +134,7 @@
 			document.body.appendChild( stats.domElement );
 
 			controls = new THREE.OrbitControls( camera );
-			//blocco della camera per impedire di andare "sottacqua"
+			//blocco della camera per impedire di andare sotto il livello del mare
 			controls.maxPolarAngle = 85 * Math.PI/180;
 			controls.addEventListener( 'change', Render );
 		}
