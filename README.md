@@ -71,7 +71,7 @@ Il Titanic è stato creato suddividendolo in 5 parti per semplificarne il codice
 Terminata la nave, l'attenzione si è spostata sulla creazione del terreno: l'idea è stata quella di creare l'iceberg e la porzione di oceano interessata dall'incidente tramite le funzioni fornite e una heightmap. L'immagine in scala di grigi è stata ottenuta modificando quella presente tra i file di partenza del progetto.
 
 | ![Heightmap](textures/heightmap.png) |
-| :------------------------------: |
+| :----------------------------------: |
 | Heightmap 60x60 |
 
 La creazione del terreno è stata affidata ad una classe apposita che sfrutta la funzione *getHeightData* per generare il mare e l'iceberg a partire dalla heightmap.
