@@ -80,7 +80,7 @@ La creazione del terreno è stata affidata ad una classe apposita che sfrutta la
 | :------------------------------------: |
 | Iceberg e porzione di oceano creati tramite la heightmap |
 
-Il passo successivo è stato quello di dedicarsi alle animazioni per ricreare l'incidente. Il grafo della scena è abbastanza semplice: 
+Il passo successivo è stato quello di dedicarsi alle animazioni per ricreare l'incidente. Il grafo della scena è abbastanza semplice: oltre al ground (che è stato aggiunto in seguito), sono presenti il terreno e il Titanic. Quest'ultimo è l'unico oggetto interessato alle animazioni ed è a sua volta composto da scafo (HULL), ponte (DECK), prua (BOW), poppa (STERN) e dai fumaioli (FUNNEL), che sono quattro oggetti identici ottenuti tramite clonazione del primo elemento. La nave si comporta comunque come una singola entità durante tutte le animazioni.
 
 | ![Scene graph](pics/scene_graph.png) |
 | :----------------------------------: |
