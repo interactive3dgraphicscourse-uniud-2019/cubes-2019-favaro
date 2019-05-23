@@ -6,8 +6,8 @@ class Terrain{
 
     var geometry = new THREE.BoxGeometry(1,1,1);
 
-    var seaTexture = THREE.ImageUtils.loadTexture('textures/sea.png');
-    var iceTexture = THREE.ImageUtils.loadTexture('textures/ice.jpg');
+    var seaTexture = new THREE.TextureLoader().load( 'textures/sea.png' );
+    var iceTexture = new THREE.TextureLoader().load( 'textures/ice.jpg' );
 
     var materialSea = new THREE.MeshBasicMaterial( { map: seaTexture } );
     var materialIce = new THREE.MeshBasicMaterial( { map: iceTexture } );
