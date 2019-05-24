@@ -52,7 +52,7 @@ La scena racchiude in pochi secondi il naufragio dall'impatto alla completa imme
 
 La camera osserva lo scenario seguendo i movimenti del Titanic. L'osservatore è libero di spostarla con il mouse in tutte le direzioni ma non sotto il livello del mare, mantenendo comunque l'obiettivo puntato sul transatlantico.
 
-Nelle prove di esecuzione del progetto finale il frame rate è stato di 50-57 fps e durante gli spostamenti manuali della camera poteva scendere a 45 fps.
+Nelle prove di esecuzione del progetto finale il frame rate è stato di 50-60 fps e durante gli spostamenti manuali della camera poteva scendere a 45 fps.
 Tutte le prove sono state effettuate con un notebook ASUS VivoBook Pro 15 N580VD-FI523T con le seguenti caratteristiche:
 - processore Intel Core i7-7700hq (2.8 ghz)
 - GPU NVIDIA GeForce GTX 1050
